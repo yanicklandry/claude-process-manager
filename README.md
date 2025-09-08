@@ -56,7 +56,7 @@ While Claude may have a built-in `claude process` command, `cproc` offers severa
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/cproc.git ~/bin/cproc
+   git clone https://github.com/yanicklandry/claude-process-manager.git ~/bin/cproc
    ```
 
 2. Make the script executable:
