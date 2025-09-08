@@ -56,12 +56,12 @@ While Claude may have a built-in `claude process` command, `cproc` offers severa
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yanicklandry/claude-process-manager.git ~/bin/cproc
+   git clone https://github.com/yanicklandry/claude-process-manager.git ~/bin/claude-process-manager
    ```
 
 2. Make the script executable:
    ```bash
-   chmod +x ~/bin/cproc/cproc.sh
+   chmod +x ~/bin/claude-process-manager/cproc.sh
    ```
 
 3. Make sure `~/bin` is in your PATH (add to `~/.zshrc` or `~/.bashrc` if needed):
@@ -70,11 +70,6 @@ While Claude may have a built-in `claude process` command, `cproc` offers severa
    ```
 
 4. Create a symlink for easy access:
-   ```bash
-   ln -sf ~/bin/cproc/cproc.sh ~/bin/cproc
-   ```
-
-**Note:** If you already have this installed from a previous setup, the directory might be named `claude-process-manager` instead of `cproc`. In that case, use:
    ```bash
    ln -sf ~/bin/claude-process-manager/cproc.sh ~/bin/cproc
    ```
